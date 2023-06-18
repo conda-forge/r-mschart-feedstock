@@ -1,11 +1,11 @@
-About r-mschart
-===============
+About r-mschart-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mschart-feedstock/blob/main/LICENSE.txt)
 
 Home: https://ardata-fr.github.io/officeverse/, https://ardata-fr.github.io/mschart/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mschart-feedstock/blob/main/LICENSE.txt)
 
 Summary: Create native charts for 'Microsoft PowerPoint' and 'Microsoft Word' documents. These can then be edited and annotated. Functions are provided to let users create charts, modify and format their content. The chart's underlying data is automatically saved within the 'Word' document or 'PowerPoint' presentation. It extends package 'officer' that does not contain any feature for 'Microsoft' native charts production.
 
