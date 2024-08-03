@@ -1,6 +1,5 @@
 {% set version = "0.4.0" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-mschart
@@ -13,8 +12,7 @@ source:
   sha256: 319bcd9c4500adb1b6f28fb31f70d2889c6b89b5182e400cc7696afc67a5de7e
 
 build:
-  merge_build_host: true  # [win]
-  number: 1
+  number: 2
   noarch: generic
   rpaths:
     - lib/R/lib/
