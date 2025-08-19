@@ -28,6 +28,7 @@ requirements:
     - r-data.table
     - r-htmltools
     - r-officer >=0.3.6
+    - r-scales
     - r-writexl
     - r-xml2 >=1.1.0
   run:
@@ -36,6 +37,7 @@ requirements:
     - r-data.table
     - r-htmltools
     - r-officer >=0.3.6
+    - r-scales
     - r-writexl
     - r-xml2 >=1.1.0
 
