@@ -1,4 +1,4 @@
-{% set version = "0.4.1" %}
+{% set version = "0.4.3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mschart_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mschart/mschart_{{ version }}.tar.gz
-  sha256: e8fd11b3f9b42ab385cceaeba42b3a61a7d05145d093637fc8d9379be9261d70
+  sha256: 463099b99f85641d00158cf46158325d3c7b23f0f801ccedd3e39649645b3086
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -49,8 +49,8 @@ test:
 about:
   home: https://ardata-fr.github.io/officeverse/, https://ardata-fr.github.io/mschart/
   license: MIT
-  summary: Create native charts for 'Microsoft PowerPoint' and 'Microsoft Word' documents. These can then be edited and annotated. Functions are provided to let users create charts, modify and format their content. The chart's underlying data is automatically saved within the 'Word' document or 'PowerPoint' presentation.
-    It extends package 'officer' that does not contain any feature for 'Microsoft' native charts production.
+  summary: Create native charts for 'Microsoft PowerPoint' and 'Microsoft Word' documents. These can then be edited and annotated. Functions are provided to let users create charts, modify and format their content. The chart's underlying data is automatically saved within the 'Word' document or 'PowerPoint' 
+    presentation. It extends package 'officer' that does not contain any feature for 'Microsoft' native charts production.
   license_family: MIT
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
