@@ -1,4 +1,4 @@
-{% set version = "0.4.3" %}
+{% set version = "0.5.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mschart_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mschart/mschart_{{ version }}.tar.gz
-  sha256: 463099b99f85641d00158cf46158325d3c7b23f0f801ccedd3e39649645b3086
+  sha256: 329843cd541963ccd4588cf9b8ed9b8724d4b56d99f866d7834d3468fb227937
 
 build:
   number: 0
